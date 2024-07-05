@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const connect = async () => {
-    const PORT = process.env.MONGO_COMPASS_URI
+    const PORT = process.env.MONGO_ATLAS_URI
     try {
         const options = {
             useNewUrlParser: true,
